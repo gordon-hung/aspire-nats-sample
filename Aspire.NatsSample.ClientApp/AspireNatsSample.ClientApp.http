@@ -1,0 +1,6 @@
+@AspireNatsSample.ClientApp_HostAddress = http://localhost:5127
+
+GET {{AspireNatsSample.ClientApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

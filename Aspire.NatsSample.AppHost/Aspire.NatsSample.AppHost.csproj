@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<IsAspireHost>true</IsAspireHost>
+		<UserSecretsId>6417f61e-da29-4f2f-a4bb-5ee160f6e38d</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Aspire.Hosting.AppHost" Version="8.1.0" />
+		<PackageReference Include="Aspire.Hosting.Nats" Version="8.1.0" />
+		<PackageReference Include="Aspire.NATS.Net" Version="8.1.0" />
+		<PackageReference Include="NATS.Client" Version="1.1.6" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Aspire.NatsSample.ClientApp\Aspire.NatsSample.ClientApp.csproj" />
+		<ProjectReference Include="..\Aspire.NatsSample.ServiceApp\Aspire.NatsSample.ServiceApp.csproj" />
+		<ProjectReference Include="..\Aspire.NatsSample.ServiceDefaults\Aspire.NatsSample.ServiceDefaults.csproj" />
+	</ItemGroup>
+
+</Project>
