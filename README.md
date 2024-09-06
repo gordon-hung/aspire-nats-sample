@@ -1,5 +1,5 @@
 # aspire-nats-sample
-ASP.NET Core 8.0 Aspire Nats Sample
+ASP.NET Core 8.0 Aspire Nats
 
 .NET Aspire is an opinionated, cloud ready stack for building observable, production ready, distributed applications. .NET Aspire is delivered through a collection of NuGet packages that handle specific cloud-native concerns. Cloud-native apps often consist of small, interconnected pieces or microservices rather than a single, monolithic code base. Cloud-native apps generally consume a large number of services, such as databases, messaging, and caching.
 
